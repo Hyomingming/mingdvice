@@ -1,0 +1,12 @@
+가상 환경 만들기 python -m venv myvenv
+가상 환경 실행 myvenv\Scripts\activate
+깃허브 데스크탑
+pip install pyowm
+
+django-admin startproject <프로젝트명> : 새로운 프로젝트 생성
+python manage.py startapp <앱이름> : 새로운 장고앱 생성
+python manage.py runserver : 개발 서버 실행
+python manage.py makemigrations <앱이름> : 마이그레이션 파일 생성
+python manage.py migrate <앱이름> : 마이그레이션 적용
+python manage.py collectstatic : static 파일들을 settings.STATIC_ROOT 경로로 모음
+python manage.py --help : 지원하는 명령어 목록
